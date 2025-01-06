@@ -6,11 +6,11 @@ class Solution {
         {
             if(nums[i]<nums[i+1])
             {
-                increment = false;
+                decrement = false;
             }
             if(nums[i]>nums[i+1])
             {
-                decrement = false;
+                increment = false;
             }
         }
         return increment||decrement;
