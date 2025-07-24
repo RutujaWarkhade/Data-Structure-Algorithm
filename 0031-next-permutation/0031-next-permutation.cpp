@@ -4,7 +4,7 @@ public:
        int n = nums.size();
        int ind = -1;
        //find break point i.e grater ele but from back side
-       for(int i=n-1;i>=0;i--)
+       for(int i=n-2;i>=0;i--)
        {
         if(nums[i]<nums[i+1])
        {
